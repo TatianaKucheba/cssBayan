@@ -3,6 +3,7 @@
     width: 80vw;
 
 } 
+
 .accordion-label {
     cursor: pointer;
     background-color: rgba(244, 128, 56, 0.879);
@@ -28,6 +29,7 @@
     background-color: rgba(244, 128, 56, 0.879);
     color: #FFF;
 }
+
 .accordion-input:checked + .accordion-label:before {
     transition: transform .35s;
     transform: rotate(90deg);
@@ -67,4 +69,10 @@
 
 .accordion-input:checked + .accordion-label .accordion-icon {
     transform: rotate(0);
+}
+
+@media (max-width: 520px) {
+    .accordion-image {
+        width: 30vh;
+    }
 }
