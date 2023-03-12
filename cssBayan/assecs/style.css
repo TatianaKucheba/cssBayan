@@ -65,6 +65,6 @@
     opacity: 1;
 }
 
-.accordion-input:checked + .accordion-label > .accordion-icon {
+.accordion-input:checked + .accordion-label .accordion-icon {
     transform: rotate(0);
 }
